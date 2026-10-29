@@ -14,7 +14,7 @@
 2. 콘솔의 [API 키](https://console.hrum.ai/apikeys.html) 화면에서 키 제목을 적고 발급을 눌러요.
 3. 새 키는 발급 직후 한 번만 보여요. 바로 복사해서 환경변수처럼 안전한 곳에 두세요.
 
-가입하면 무료 크레딧이 지급돼요(부정 가입 방지 조건에 걸리면 지급이 보류될 수 있어요) 〔무료확인〕
+가입하면 무료 크레딧이 지급돼요(부정 가입 방지 조건에 걸리면 지급이 보류될 수 있어요).
 
 키는 서버에서만 쓰세요. 브라우저나 앱 코드에 넣으면 누구나 꺼내 쓸 수 있어요. 키를 저장소에 커밋하지 않도록 `.env`는 `.gitignore`에 들어 있어요.
 
@@ -89,7 +89,7 @@ python3 manseryeok.py my-input.json --save result.json
 
 ## 응답 읽기
 
-성공하면 `{"success": true, "data": { ... }}` 형태로 와요. 자주 쓰는 필드는 이 정도예요.
+성공하면 `{"success": true, "data": { .. }}` 형태로 와요. 자주 쓰는 필드는 이 정도예요.
 
 | 필드 | 뜻 |
 |---|---|
@@ -114,7 +114,7 @@ python3 manseryeok.py my-input.json --save result.json
 
 ## 자주 보는 오류
 
-오류 응답은 `{"success": false, "statusCode": ..., "code": "...", "message": ..., "timestamp": "..."}` 형태예요. `code`는 있을 때만 붙어요. 분기는 `statusCode`와 `code`로 하고, `message` 문구에는 기대지 마세요.
+오류 응답은 `{"success": false, "statusCode": .., "code": "..", "message": .., "timestamp": ".."}` 형태예요. `code`는 있을 때만 붙어요. 분기는 `statusCode`와 `code`로 하고, `message` 문구에는 기대지 마세요.
 
 | HTTP | code | 뜻 | 이렇게 하세요 |
 |---|---|---|---|
