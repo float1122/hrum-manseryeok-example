@@ -1,0 +1,126 @@
+{
+  "success": true,
+  "data": {
+    "wonkuk": {
+      "year": {
+        "stem": "기", "branch": "묘", "stemHanja": "己", "branchHanja": "卯",
+        "ohaeng": "토", "stemSipsin": "정관", "branchSipsin": "상관",
+        "jijanggan": ["갑", "을"], "chunghyung": [], "hapPosition": ["半合(반합)"],
+        "ungSung": "사", "napEum": "성두토",
+        "majorSinsal": ["장성살"],
+        "minorSinsal": ["천을귀인", "원진살", "현침살", "육해살"]
+      },
+      "month": {
+        "stem": "정", "branch": "축", "stemHanja": "丁", "branchHanja": "丑",
+        "ohaeng": "화", "stemSipsin": "정재", "branchSipsin": "정관",
+        "jijanggan": ["계", "신", "기"], "chunghyung": ["沖(충)", "刑(형)"], "hapPosition": [],
+        "ungSung": "쇠", "napEum": "간하수",
+        "majorSinsal": ["월살"],
+        "minorSinsal": []
+      },
+      "day": {
+        "stem": "임", "branch": "신", "stemHanja": "壬", "branchHanja": "申",
+        "ohaeng": "수", "stemSipsin": "비견", "branchSipsin": "편인",
+        "jijanggan": ["무", "임", "경"], "chunghyung": [], "hapPosition": [],
+        "ungSung": "장생", "napEum": "검봉금",
+        "majorSinsal": ["겁살"],
+        "minorSinsal": []
+      },
+      "hour": {
+        "stem": "정", "branch": "미", "stemHanja": "丁", "branchHanja": "未",
+        "ohaeng": "화", "stemSipsin": "정재", "branchSipsin": "정관",
+        "jijanggan": ["정", "을", "기"], "chunghyung": ["沖(충)", "刑(형)"], "hapPosition": ["半合(반합)"],
+        "ungSung": "양", "napEum": "천하수",
+        "majorSinsal": ["화개살"],
+        "minorSinsal": []
+      }
+    },
+    "trueSolarTime": null,
+    "ohaengBalance": { "목": 1, "화": 2, "토": 3, "금": 1, "수": 1 },
+    "yongshin": "수",
+    "johuYongshin": "화",
+    "yongshinDetail": {
+      "method": "억부",
+      "primary": "수",
+      "secondary": ["금"],
+      "reasoning": ["일간 임(수) 신약 (score=-66)", "신약 + root 있음(8) → 비겁(수)"],
+      "shin": { "yongshin": "수", "huishin": "금", "gishin": "토", "gushin": "화", "hanshin": "목" },
+      "favorable_sipsin": ["편인", "정인", "비견", "겁재"],
+      "unfavorable_sipsin": ["편관", "정관", "편재", "정재", "식신", "상관"]
+    },
+    "eokbuYongshin": "수",
+    "ilganSummary": "壬水 — 큰 바다의 기운. 지혜롭고 포용력이 넓어요.",
+    "daeun": [
+      {
+        "startAge": 3, "endAge": 13,
+        "stem": "병", "branch": "자", "stemHanja": "丙", "branchHanja": "子",
+        "ohaeng": "화", "isCurrent": false,
+        "stemSipsin": "편재", "branchSipsin": "겁재",
+        "sinsal": ["년살", "장성살"]
+      },
+      {
+        "startAge": 13, "endAge": 23,
+        "stem": "을", "branch": "해", "stemHanja": "乙", "branchHanja": "亥",
+        "ohaeng": "목", "isCurrent": false,
+        "stemSipsin": "상관", "branchSipsin": "비견",
+        "sinsal": ["지살", "망신살"]
+      },
+      {
+        "startAge": 23, "endAge": 33,
+        "stem": "갑", "branch": "술", "stemHanja": "甲", "branchHanja": "戌",
+        "ohaeng": "목", "isCurrent": true,
+        "stemSipsin": "식신", "branchSipsin": "편관",
+        "sinsal": ["천살", "월살"]
+      }
+    ],
+    "seun": [
+      {
+        "year": 2026, "stem": "병", "branch": "오", "stemHanja": "丙", "branchHanja": "午",
+        "ohaeng": "화", "isCurrent": true, "grade": "good",
+        "relations": [
+          { "type": "해", "target": "월주", "description": "오-축 해" },
+          { "type": "육합", "target": "시주", "description": "오-미 육합" }
+        ],
+        "summary": "전체적으로 순조로운 흐름이 예상돼요.",
+        "sinsal": ["육해살", "재살"]
+      }
+    ],
+    "branchRelations": [
+      { "type": "沖(충)", "pillars": ["축", "미"], "description": "丑未沖 (축미충)" },
+      { "type": "刑(형)", "pillars": ["축", "미"], "description": "丑未刑 (축미형)" },
+      { "type": "半合(반합)", "pillars": ["묘", "미"], "description": "卯未合 (묘미 반합)" }
+    ],
+    "gongmang": [],
+    "cheonEulGwiIn": [],
+    "wolryeong": "축",
+    "daeunNumber": 3,
+    "daeunDirection": "역행",
+    "gyeokguk": {
+      "name": "정관격",
+      "summary": "질서·명예·합리"
+    },
+    "ohaengByeonsuHits": [
+      {
+        "key": "to_wang_deuk_mok",
+        "subject": "土", "target": "木",
+        "formula_idiom": "방능소통(方能疏通)",
+        "description": "토가 왕성한데 목을 얻으면 소통이 된다",
+        "category": "wang_geuk_sunwha"
+      }
+    ],
+    "strength": {
+      "dayMaster": "임",
+      "score": -66,
+      "result": "신약",
+      "level": "중약",
+      "breakdown": { "season": -30, "support": 8, "control": -38, "hidden": -9, "root": 8 }
+    },
+    "jeongtak": {
+      "verdict": "탁",
+      "reasons": ["파괴 십신 2개 감지", "용신 금 생 ✓", "일주 신약"],
+      "severity": "극탁"
+    },
+    "countryCodeUsed": null,
+    "ohaengDeficient": []
+  }
+}
