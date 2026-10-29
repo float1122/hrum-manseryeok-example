@@ -89,7 +89,7 @@ python3 manseryeok.py my-input.json --save result.json
 
 ## 응답 읽기
 
-성공하면 `{"success": true, "data": { .. }}` 형태로 와요. 자주 쓰는 필드는 이 정도예요.
+성공하면 `{"success": true, "data": { ... }}` 형태로 와요. 자주 쓰는 필드는 이 정도예요.
 
 | 필드 | 뜻 |
 |---|---|
@@ -114,7 +114,7 @@ python3 manseryeok.py my-input.json --save result.json
 
 ## 자주 보는 오류
 
-오류 응답은 `{"success": false, "statusCode": .., "code": "..", "message": .., "timestamp": ".."}` 형태예요. `code`는 있을 때만 붙어요. 분기는 `statusCode`와 `code`로 하고, `message` 문구에는 기대지 마세요.
+오류 응답은 `{"success": false, "statusCode": ..., "code": "...", "message": ..., "timestamp": "..."}` 형태예요. `code`는 있을 때만 붙어요. 분기는 `statusCode`와 `code`로 하고, `message` 문구에는 기대지 마세요.
 
 | HTTP | code | 뜻 | 이렇게 하세요 |
 |---|---|---|---|
