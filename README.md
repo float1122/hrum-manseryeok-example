@@ -1,5 +1,7 @@
 # HRUM 만세력 API 예제
 
+> 결과를 웹 페이지로 보여 주는 예제는 [hrum-saju-example](https://github.com/float1122/hrum-saju-example)에 있어요.
+
 생년월일시를 보내면 사주 원국(년주·월주·일주·시주)을 돌려주는 [HRUM(흐름)](https://hrum.ai/?utm_source=github&utm_medium=example&utm_campaign=devrel-1030) 만세력 API를 아무것도 설치하지 않고 불러 보는 예제예요.
 
 - `curl.sh` — curl 하나로 호출해요.
